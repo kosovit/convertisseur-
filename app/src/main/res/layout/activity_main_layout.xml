@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.example.ziyed.convertisseur.view.VueChText
+        android:id="@+id/mes_champs_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+
+    <Switch
+        android:id="@+id/switcheur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="250dp"
+        android:text="DOLLAR->EURO" />
+
+    <Button
+        android:id="@+id/button_convertisseur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="CONVERTIR" />
+
+</RelativeLayout>
